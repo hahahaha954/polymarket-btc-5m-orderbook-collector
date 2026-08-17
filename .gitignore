@@ -1,0 +1,25 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Runtime data and generated archives
+data/
+*.zip
+*.parquet
+*.jsonl
+*.log
+test_packages/
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local files
+.DS_Store
+*.swp
